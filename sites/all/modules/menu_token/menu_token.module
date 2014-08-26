@@ -121,6 +121,9 @@ function menu_token_translated_menu_link_alter(&$item, $map) {
     // Make sure aliases are proccessed correctly
     $url = trim($url, '/');
     $url = drupal_get_normal_path($url);
+	
+ 
+    $item['localized_options']['html'] = TRUE;
 
     // Override active trail if showing front page but translated link is not to
     // front page.

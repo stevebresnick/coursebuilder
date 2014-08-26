@@ -4,12 +4,34 @@
  */
 
 .view-my-courses thead{
-	background:#6E0C4A;
+	background:#0C8689;
 	color: #ffffff;
+	border-right: #0C8689 1px solid;
+	border-left: #0C8689 1px solid;
 }
 
-.view-my-courses {
-	border:#6E0C4A 1px solid;
+.view-my-courses tbody{
+	border-right:#0C8689 1px solid;
+	border-left:#0C8689 1px solid;
+}
+
+.views-field .views-field-title{
+	padding: 20px 10px 10px 10px;
+}
+
+
+.my-courses .views-row-first, .my-courses .views-row-last{
+	background:#ffffff;
+}
+
+.my-courses {
+	background:#efefef;
+	padding: 15px;
+
+}
+
+.my-courses .block-title{
+	text-align:center;
 }
 
 .courselist table thead {
@@ -18,8 +40,12 @@
 }
 
 .views-field-field-course-description, .views-field-title {
-	border-bottom:1px solid #220069;
-	padding: 10px 20px 10px 5px;
+	border-bottom:1px solid #0C8689;
+	padding: 10px 10px 10px 0px;
+}
+
+.table {
+	margin-bottom:0px;
 }
 
 .node-course {
@@ -43,4 +69,10 @@
 	margin-bottom: 10px;
 	border: 1px solid #220069;
 	padding: 10px 15px 10px 15px;
+}
+
+/*Course Landing Page*/
+.field-name-field-course-image img {
+	margin-left: auto;
+	margin-right: auto;
 }
