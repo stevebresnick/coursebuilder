@@ -1,0 +1,46 @@
+/**
+ * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
+ * remove this comment and start adding your styles to this file.
+ */
+
+.view-my-courses thead{
+	background:#6E0C4A;
+	color: #ffffff;
+}
+
+.view-my-courses {
+	border:#6E0C4A 1px solid;
+}
+
+.courselist table thead {
+	background:#220069;
+	color: #ffffff;
+}
+
+.views-field-field-course-description, .views-field-title {
+	border-bottom:1px solid #220069;
+	padding: 10px 20px 10px 5px;
+}
+
+.node-course {
+	padding: 10px 5px 10px 5px;
+}
+
+.field-label {
+	color: #ffffff;
+	padding: 10px 15px 10px 15px;
+}
+
+.field-name-field-course-description .field-label {
+	background:#220069;
+}
+
+.field-name-field-course-category .field-label {
+	background:#6E0C4A;
+}
+
+.field-items {
+	margin-bottom: 10px;
+	border: 1px solid #220069;
+	padding: 10px 15px 10px 15px;
+}
